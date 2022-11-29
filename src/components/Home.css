@@ -1,0 +1,232 @@
+.home{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.layout{
+  display: flex;
+}
+
+.profile{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+}
+
+.name{
+  font-weight: bolder;
+  font-size: 190px;
+  position: absolute;
+  margin-top: 140px;
+  margin-right: 100px;
+  transform: rotate(-90deg);
+  color: black;
+  text-shadow: -4px -4px #b69121;
+  letter-spacing: -17px;
+}
+
+.image-profile{
+  background-color: #b69121;
+  border-radius: 150px 150px 150px 150px;
+}
+
+.introduction{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 50px;
+  color: #212121;
+}
+
+.full-stack{
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.skills{
+  font-size: 15px;
+  font-weight: bold;
+  color: #b69121;
+}
+.projects{
+  margin-top: 30px;
+}
+
+.recent-project ul{
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.recent-project ul li{
+  list-style: none;
+  margin-right: 7px;
+}
+
+.furniture{
+  width: 150px;
+  height: 80px;
+  border-radius: 5px;
+  border: 1px solid #b69121;
+}
+
+.furniture:hover{
+  border: #b69121 2px solid;
+}
+
+.capture{
+  width: 150px;
+  border-radius: 5px;
+  border: 1px solid #b69121;
+}
+
+.capture:hover{
+  border: #b69121 2px solid;
+}
+
+@media screen and (max-width: 770px) {
+  .home{
+    display: flex;
+    justify-content: center;
+  }
+
+  .layout{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .profile{
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-profile{
+    width: 250px;
+  }
+
+  .name{
+    font-weight: bolder;
+    font-size: 150px;
+    position: absolute;
+    margin-top: 120px;
+    margin-right: 190px;
+    transform: rotate(-90deg);
+  }
+
+  .introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .full-stack{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+  }
+
+  .skills{
+    font-size: 10px;
+  }
+
+  .recent-project ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .recent-project ul li{
+    margin-bottom: 10px;
+  }
+
+  .furniture{
+    width: 180px;
+    height: 70px;
+    border-radius: 5px;
+  }
+
+  .capture{
+      width: 180px;
+      border-radius: 5px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+  .home{
+    display: flex;
+    justify-content: center;
+  }
+
+  .layout{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .profile{
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-profile{
+    width: 200px;
+  }
+
+  .name{
+    font-weight: bolder;
+    font-size: 120px;
+    position: absolute;
+    margin-top: 100px;
+    margin-right: 170px;
+    transform: rotate(-90deg);
+  }
+
+  .introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .full-stack{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+  }
+
+  .skills{
+    font-size: 10px;
+  }
+
+  .recent-project ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .recent-project ul li{
+    margin-bottom: 10px;
+  }
+
+  .furniture{
+    width: 150px;
+    height: 60px;
+    border-radius: 5px;
+  }
+
+  .capture{
+      width: 150px;
+      border-radius: 5px;
+    }
+}
